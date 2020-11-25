@@ -1,0 +1,137 @@
+.home{
+  .home-nav{
+    display: flex;
+    line-height: 46px;
+    
+  }
+  .t1{
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .t2{
+    color: #3a48bf;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  /deep/ .home-search .van-search{
+    padding: 0;
+    border-radius: 17px;
+    overflow: hidden;
+  }
+
+  /deep/ .home-search .van-icon{
+    color: #3a48bf;
+  }
+
+  .home-content{
+    padding: 10px 10px 0 10px;
+  }
+
+  .banner-box{
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 3px 3px #c8c8c8;
+  }
+
+  .index-box{
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    >div{
+      width: 50px;
+      height: 4px;
+      background-color: #fff;
+      margin-right: 5px;
+      border-radius: 1px;
+      &.active{
+        background-color: #3a48bf;
+      }
+    }
+  }
+
+  .product-box{
+    margin-top: 10px;
+  }
+
+  .pro-title-box{
+    background-color: #fff;
+    padding: 10px 0;
+    
+  }
+
+  .pro-title{
+    float: left;
+    padding: 0 15px;
+    height: 32px;
+    background-color: #c1bd00;
+    color: #fff;
+    line-height: 32px;
+    border-top-right-radius: 16px;
+    box-shadow: 0px 3px 3px #c8c8c8;
+  }
+
+  .products{
+    margin-top: 10px;
+  }
+
+  .pro-item{
+    width: calc(~"50% - 25px");
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 3px 3px #c8c8c8;
+    &:nth-child(2n){
+      margin-right: 0;
+    } 
+  }
+
+  .img-box{
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    .hot{
+      position: absolute;
+      left: 8px;
+      top: 0;
+      width: 24px;
+      text-align: center;
+      line-height: 24px;
+      height: 24px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: #3a48bf;
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .pro-info{
+    margin-top: 10px;
+  }
+
+  .pro-name{
+    margin-bottom: 5px;
+  }
+
+  .pro-price{
+    color: #3a48bf;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .pro-enname{
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+}

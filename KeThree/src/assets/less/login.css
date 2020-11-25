@@ -1,0 +1,85 @@
+.login {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../images/login-bg.jpeg');
+  background-size: cover;
+}
+.login .nav-left {
+  display: flex;
+}
+.login .enterShop {
+  color: #3a48bf;
+  font-weight: bold;
+  position: fixed;
+  top: 30px;
+  right: 20px;
+}
+.login .logo {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+.login .logo-name {
+  margin-top: 6px;
+}
+.login /deep/ .van-nav-bar__text {
+  color: #3a48bf;
+  font-weight: bold;
+}
+.login /deep/ .van-cell {
+  background-color: transparent;
+}
+.login /deep/ .van-field__label {
+  color: #fff;
+}
+.login /deep/ .van-field__control {
+  color: #fff;
+}
+.login .user-box {
+  margin-top: 100px;
+  padding: 0 15px;
+}
+.login .register /deep/ .van-field__label {
+  color: #333;
+}
+.login .register /deep/ .van-field__control {
+  color: #333;
+}
+.login .welcome {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3a48bf;
+}
+.login .sub-title {
+  margin-top: 30px;
+  color: #83838B;
+  font-size: 16px;
+}
+.login .user-title {
+  margin-bottom: 50px;
+}
+.login .commit-btn {
+  margin-top: 50px;
+}
+.login .forgot {
+  text-align: right;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.login .register-box {
+  padding: 15px 0;
+}
+.login .register-btn {
+  padding: 0 15px;
+}
+.login .register-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,116 @@
+.home .home-nav {
+  display: flex;
+  line-height: 46px;
+}
+.home .t1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.home .t2 {
+  color: #3a48bf;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.home /deep/ .home-search .van-search {
+  padding: 0;
+  border-radius: 17px;
+  overflow: hidden;
+}
+.home /deep/ .home-search .van-icon {
+  color: #3a48bf;
+}
+.home .home-content {
+  padding: 10px 10px 0 10px;
+}
+.home .banner-box {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 3px 3px #c8c8c8;
+}
+.home .index-box {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.home .index-box > div {
+  width: 50px;
+  height: 4px;
+  background-color: #fff;
+  margin-right: 5px;
+  border-radius: 1px;
+}
+.home .index-box > div.active {
+  background-color: #3a48bf;
+}
+.home .product-box {
+  margin-top: 10px;
+}
+.home .pro-title-box {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.home .pro-title {
+  float: left;
+  padding: 0 15px;
+  height: 32px;
+  background-color: #c1bd00;
+  color: #fff;
+  line-height: 32px;
+  border-top-right-radius: 16px;
+  box-shadow: 0px 3px 3px #c8c8c8;
+}
+.home .products {
+  margin-top: 10px;
+}
+.home .pro-item {
+  width: calc(50% - 25px);
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 3px 3px #c8c8c8;
+}
+.home .pro-item:nth-child(2n) {
+  margin-right: 0;
+}
+.home .img-box {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.home .img-box .hot {
+  position: absolute;
+  left: 8px;
+  top: 0;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  height: 24px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #3a48bf;
+  color: #fff;
+  font-size: 12px;
+}
+.home .pro-info {
+  margin-top: 10px;
+}
+.home .pro-name {
+  margin-bottom: 5px;
+}
+.home .pro-price {
+  color: #3a48bf;
+  font-weight: bold;
+  font-size: 16px;
+}
+.home .pro-enname {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 10px;
+}

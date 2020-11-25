@@ -1,0 +1,28 @@
+.like{
+  padding-top: 46px;
+
+  /deep/ .van-nav-bar .van-icon{
+    color: #3a48bf;
+  }
+
+  /deep/ .van-nav-bar__text{
+    color: #3a48bf;
+  }
+
+  .bg-content{
+    padding-bottom: 0 !important;
+  }
+
+  .like-item{
+    width: calc(~"100% / 3 - 10px + 10px / 3");
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 3px #c8c8c8;
+    border-radius: 6px;
+    overflow: hidden;
+    &:nth-child(3n){
+      margin-right: 0;
+    }
+  }
+
+}
